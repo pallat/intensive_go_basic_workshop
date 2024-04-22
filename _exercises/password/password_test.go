@@ -10,6 +10,10 @@ func TestValidatePasswordError(t *testing.T) {
 		expected string
 	}{
 		{
+			given:    "1234567",
+			expected: "the password must be at least 8 characters",
+		},
+		{
 			given:    "abcdefgh",
 			expected: "the password must contain at least 2 numbers",
 		},
