@@ -1,4 +1,4 @@
-CREATE TABLE laguages (
+CREATE TABLE languages (
     id INTEGER primary key autoincrement,
     name TEXT,
     imageUrl TEXT,
